@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lokarin/IFSC/sem7/PRG/marco/aula2/teste1/include
+CXX_INCLUDES = -I/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/include
 
 CXX_FLAGS = 
 

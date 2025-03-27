@@ -15,6 +15,7 @@ public:
 		this->gender = gender;
 		this->age = 0;
 	}
+
 	/*void setName(string name){
 		if(name.length() != 0){
 			this->name = name;
@@ -22,6 +23,7 @@ public:
 			cout << "Name cannot be empty!" << endl;
 		}
 	}*/
+
 	void setAge(unsigned int age){
 		if(age > this->age){
 			this->age = age;
@@ -52,15 +54,6 @@ public:
 	}
 };
 
-class HelloWorld{
-public:
-	void print();
-};
-
-void HelloWorld::print() {
-	cout << "Hello World!" << endl;
-}
-
 void example(){
 	Cat tom("Tom","male");
 	Cat nina("Nina","female");
@@ -80,13 +73,7 @@ void example(){
 }
 
 int main() {
-	HelloWorld obj;
-	obj.print();
-
-
 	example();
-
-
 
 	return 0;
 }

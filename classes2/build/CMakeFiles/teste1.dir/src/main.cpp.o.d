@@ -1,5 +1,5 @@
 CMakeFiles/teste1.dir/src/main.cpp.o: \
- /home/lokarin/IFSC/sem7/PRG/marco/aula2/teste1/src/main.cpp \
+ /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
