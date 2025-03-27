@@ -1,0 +1,3 @@
+/home/lokarin/IFSC/sem7/PRG/marco/aula2/teste1/build/CMakeFiles/teste1.dir
+/home/lokarin/IFSC/sem7/PRG/marco/aula2/teste1/build/CMakeFiles/edit_cache.dir
+/home/lokarin/IFSC/sem7/PRG/marco/aula2/teste1/build/CMakeFiles/rebuild_cache.dir

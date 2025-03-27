@@ -1,0 +1,3 @@
+/home/lokarin/IFSC/sem7/PRG/marco/aula1/teste1/build/CMakeFiles/helloworld.dir
+/home/lokarin/IFSC/sem7/PRG/marco/aula1/teste1/build/CMakeFiles/edit_cache.dir
+/home/lokarin/IFSC/sem7/PRG/marco/aula1/teste1/build/CMakeFiles/rebuild_cache.dir
