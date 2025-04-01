@@ -1,58 +1,9 @@
-#include <iostream>
+//#include <iostream>
 #include <string>
+#include "dog.h"
+#include "cat.h"
 
-using namespace std;
-
-class Animal{
-private:
-	string name;
-	string gender;
-	unsigned int age;
-
-public:
-	Animal(string name, string gender){
-		this->name = name;
-		this->gender = gender;
-		this->age = 0;
-	}
-
-	/*void setName(string name){
-		if(name.length() != 0){
-			this->name = name;
-		} else {
-			cout << "Name cannot be empty!" << endl;
-		}
-	}*/
-
-	void setAge(unsigned int age){
-		if(age > this->age){
-			this->age = age;
-		} else {
-			cout << "Age less than actual age!" << endl;
-		}
-	}
-
-	void showName(){
-		cout << "Name: " << name << endl;
-	}
-};
-
-
-class Cat: public Animal{
-public:
-	Cat(string name, string gender): Animal(name, gender) {}
-	void meow(){
-		cout << "Meow!" << endl;
-	}
-};
-
-class Dog: public Animal{
-public:
-	Dog(string name, string gender): Animal(name, gender) {}
-	void bark(){
-		cout << "Bark!" << endl;
-	}
-};
+using namespace std; 
 
 void example(){
 	Cat tom("Tom","male");
@@ -61,12 +12,12 @@ void example(){
 
 	tom.showName();
 	tom.meow();
-
+	tom.setName("Coisa");
+	tom.setAge(5);
+	tom.info();
 	
 	nina.showName();
 	nina.meow();
-
-
 	
 	scooby.showName();
 	scooby.bark();
@@ -74,6 +25,20 @@ void example(){
 
 int main() {
 	example();
+
+
+	Dog * ptr_dog;
+
+	ptr_dog = new Dog("Teste", "male");
+	ptr_dog->setAge(99);
+	ptr_dog->info();
+
+	delete ptr_dog;
+
+	ptr_dog = new Dog("Teste2", "female");
+	ptr_dog->setAge(55);
+	ptr_dog->info();
+
 
 	return 0;
 }

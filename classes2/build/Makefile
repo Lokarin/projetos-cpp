@@ -129,6 +129,54 @@ teste1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/build
 .PHONY : teste1/fast
 
+src/cat.o: src/cat.cpp.o
+.PHONY : src/cat.o
+
+# target to build an object file
+src/cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/cat.cpp.o
+.PHONY : src/cat.cpp.o
+
+src/cat.i: src/cat.cpp.i
+.PHONY : src/cat.i
+
+# target to preprocess a source file
+src/cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/cat.cpp.i
+.PHONY : src/cat.cpp.i
+
+src/cat.s: src/cat.cpp.s
+.PHONY : src/cat.s
+
+# target to generate assembly for a file
+src/cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/cat.cpp.s
+.PHONY : src/cat.cpp.s
+
+src/dog.o: src/dog.cpp.o
+.PHONY : src/dog.o
+
+# target to build an object file
+src/dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/dog.cpp.o
+.PHONY : src/dog.cpp.o
+
+src/dog.i: src/dog.cpp.i
+.PHONY : src/dog.i
+
+# target to preprocess a source file
+src/dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/dog.cpp.i
+.PHONY : src/dog.cpp.i
+
+src/dog.s: src/dog.cpp.s
+.PHONY : src/dog.s
+
+# target to generate assembly for a file
+src/dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teste1.dir/build.make CMakeFiles/teste1.dir/src/dog.cpp.s
+.PHONY : src/dog.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... teste1"
+	@echo "... src/cat.o"
+	@echo "... src/cat.i"
+	@echo "... src/cat.s"
+	@echo "... src/dog.o"
+	@echo "... src/dog.i"
+	@echo "... src/dog.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

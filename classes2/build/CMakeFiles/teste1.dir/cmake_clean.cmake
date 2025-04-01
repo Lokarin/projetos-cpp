@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teste1.dir/link.d"
+  "CMakeFiles/teste1.dir/src/cat.cpp.o"
+  "CMakeFiles/teste1.dir/src/cat.cpp.o.d"
+  "CMakeFiles/teste1.dir/src/dog.cpp.o"
+  "CMakeFiles/teste1.dir/src/dog.cpp.o.d"
   "CMakeFiles/teste1.dir/src/main.cpp.o"
   "CMakeFiles/teste1.dir/src/main.cpp.o.d"
   "teste1"

@@ -72,10 +72,38 @@ include CMakeFiles/teste1.dir/flags.make
 CMakeFiles/teste1.dir/codegen:
 .PHONY : CMakeFiles/teste1.dir/codegen
 
+CMakeFiles/teste1.dir/src/cat.cpp.o: CMakeFiles/teste1.dir/flags.make
+CMakeFiles/teste1.dir/src/cat.cpp.o: /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/cat.cpp
+CMakeFiles/teste1.dir/src/cat.cpp.o: CMakeFiles/teste1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/teste1.dir/src/cat.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/teste1.dir/src/cat.cpp.o -MF CMakeFiles/teste1.dir/src/cat.cpp.o.d -o CMakeFiles/teste1.dir/src/cat.cpp.o -c /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/cat.cpp
+
+CMakeFiles/teste1.dir/src/cat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/teste1.dir/src/cat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/cat.cpp > CMakeFiles/teste1.dir/src/cat.cpp.i
+
+CMakeFiles/teste1.dir/src/cat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/teste1.dir/src/cat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/cat.cpp -o CMakeFiles/teste1.dir/src/cat.cpp.s
+
+CMakeFiles/teste1.dir/src/dog.cpp.o: CMakeFiles/teste1.dir/flags.make
+CMakeFiles/teste1.dir/src/dog.cpp.o: /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/dog.cpp
+CMakeFiles/teste1.dir/src/dog.cpp.o: CMakeFiles/teste1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/teste1.dir/src/dog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/teste1.dir/src/dog.cpp.o -MF CMakeFiles/teste1.dir/src/dog.cpp.o.d -o CMakeFiles/teste1.dir/src/dog.cpp.o -c /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/dog.cpp
+
+CMakeFiles/teste1.dir/src/dog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/teste1.dir/src/dog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/dog.cpp > CMakeFiles/teste1.dir/src/dog.cpp.i
+
+CMakeFiles/teste1.dir/src/dog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/teste1.dir/src/dog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/dog.cpp -o CMakeFiles/teste1.dir/src/dog.cpp.s
+
 CMakeFiles/teste1.dir/src/main.cpp.o: CMakeFiles/teste1.dir/flags.make
 CMakeFiles/teste1.dir/src/main.cpp.o: /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/main.cpp
 CMakeFiles/teste1.dir/src/main.cpp.o: CMakeFiles/teste1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/teste1.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/teste1.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/teste1.dir/src/main.cpp.o -MF CMakeFiles/teste1.dir/src/main.cpp.o.d -o CMakeFiles/teste1.dir/src/main.cpp.o -c /home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/src/main.cpp
 
 CMakeFiles/teste1.dir/src/main.cpp.i: cmake_force
@@ -88,16 +116,20 @@ CMakeFiles/teste1.dir/src/main.cpp.s: cmake_force
 
 # Object files for target teste1
 teste1_OBJECTS = \
+"CMakeFiles/teste1.dir/src/cat.cpp.o" \
+"CMakeFiles/teste1.dir/src/dog.cpp.o" \
 "CMakeFiles/teste1.dir/src/main.cpp.o"
 
 # External object files for target teste1
 teste1_EXTERNAL_OBJECTS =
 
+teste1: CMakeFiles/teste1.dir/src/cat.cpp.o
+teste1: CMakeFiles/teste1.dir/src/dog.cpp.o
 teste1: CMakeFiles/teste1.dir/src/main.cpp.o
 teste1: CMakeFiles/teste1.dir/build.make
 teste1: CMakeFiles/teste1.dir/compiler_depend.ts
 teste1: CMakeFiles/teste1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable teste1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lokarin/IFSC/sem7/PRG/marco/aula2/classes2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable teste1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/teste1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
