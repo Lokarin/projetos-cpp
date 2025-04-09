@@ -1,0 +1,3 @@
+/home/lokarin/Documentos/Github/projetos-cpp/lab01/ex6/build/CMakeFiles/teste1.dir
+/home/lokarin/Documentos/Github/projetos-cpp/lab01/ex6/build/CMakeFiles/edit_cache.dir
+/home/lokarin/Documentos/Github/projetos-cpp/lab01/ex6/build/CMakeFiles/rebuild_cache.dir
